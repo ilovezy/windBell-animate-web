@@ -1,6 +1,6 @@
 <template>
   <div class="app-wrapper">
-    <top-action-bar></top-action-bar>
+    <!--<top-action-bar></top-action-bar>-->
     <navbar></navbar>
     <app-main></app-main>
     <!--<app-footer></app-footer>-->
