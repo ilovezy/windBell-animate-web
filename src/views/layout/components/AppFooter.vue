@@ -1,7 +1,10 @@
 <template>
   <div class='footer'>
-    <div class='footer-wrap global-container'>
-this is fucking footer    </div>
+     <div class='footer-wrap global-container'>
+       <span>Copyright © 杭州久和星途网络科技有限公司</span>
+       <!--<span style='padding-left: 50px;'>联系方式：18768143328</span>-->
+       <!--<span style='padding-left: 50px;'>qq：1518265554</span>-->
+     </div>
   </div>
 </template>
 
@@ -28,9 +31,10 @@ this is fucking footer    </div>
   @import "src/styles/mixin.scss";
 
   .footer {
-    background: pink;
+    background: #7d7d7f;
     color: #fff;
-    height: 300px;
+    height: 80px;
+    line-height: 80px;
     .footer-wrap {
 
     }

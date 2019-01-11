@@ -3,7 +3,7 @@
     <!--<top-action-bar></top-action-bar>-->
     <navbar></navbar>
     <app-main></app-main>
-    <!--<app-footer></app-footer>-->
+    <app-footer></app-footer>
   </div>
 </template>
 
