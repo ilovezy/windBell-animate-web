@@ -1,17 +1,34 @@
 <template>
   <div class="index-page">
     <el-carousel class='index-scroll-wrap'
+                 type='card'
                  style='height: 400px; margin-bottom: 20px;'>
       <el-carousel-item class='index-scroll-item'
                         style='height: 400px'>
-        <img src='./img/banner1.jpg'
+        <img src='./img/banner6.jpg'
              alt=''>
       </el-carousel-item>
       <el-carousel-item class='index-scroll-item'
                         style='height: 400px'>
-        <img src='./img/banner2.jpg'
+        <img src='./img/banner7.jpg'
              alt=''>
       </el-carousel-item>
+      <el-carousel-item class='index-scroll-item'
+                        style='height: 400px'>
+        <img src='./img/banner3.jpg'
+             alt=''>
+      </el-carousel-item>
+      <el-carousel-item class='index-scroll-item'
+                        style='height: 400px'>
+        <img src='./img/banner4.jpg'
+             alt=''>
+      </el-carousel-item>
+      <el-carousel-item class='index-scroll-item'
+                        style='height: 400px'>
+        <img src='./img/banner5.jpg'
+             alt=''>
+      </el-carousel-item>
+
     </el-carousel>
 
     <div class='global-container'>
@@ -295,8 +312,9 @@
       height: 400px;
 
       img {
-        width: 1920px;
-        height: 400px !important;
+        width: 100%;
+        /*height: 400px !important;*/
+        height: auto;
       }
     }
   }

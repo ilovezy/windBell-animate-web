@@ -53,7 +53,7 @@ export const constantRouterMap = [
       path: '',
       component: () => import('@/views/login/dealDetail'),
       name: 'dealDetail',
-      meta: { title: '日发金融合约明细' }
+      meta: { title: '风铃动漫合约明细' }
     }]
   },
 

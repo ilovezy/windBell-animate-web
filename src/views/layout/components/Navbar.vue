@@ -16,7 +16,7 @@
         <!--</router-link>-->
         <!--<router-link class='nav-list-item'-->
                      <!--to="/dealDetail">-->
-          <!--日发金融合约明细-->
+          <!--风铃动漫合约明细-->
         <!--</router-link>      <router-link class='nav-list-item'-->
                      <!--to="/download">-->
           <!--软件下载-->
