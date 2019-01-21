@@ -5,11 +5,6 @@
                  style='height: 400px; margin-bottom: 20px;'>
       <el-carousel-item class='index-scroll-item'
                         style='height: 400px'>
-        <img src='./img/banner6.jpg'
-             alt=''>
-      </el-carousel-item>
-      <el-carousel-item class='index-scroll-item'
-                        style='height: 400px'>
         <img src='./img/banner7.jpg'
              alt=''>
       </el-carousel-item>
@@ -23,12 +18,6 @@
         <img src='./img/banner4.jpg'
              alt=''>
       </el-carousel-item>
-      <el-carousel-item class='index-scroll-item'
-                        style='height: 400px'>
-        <img src='./img/banner5.jpg'
-             alt=''>
-      </el-carousel-item>
-
     </el-carousel>
 
     <div class='global-container'>
@@ -40,37 +29,45 @@
             <el-row :gutter='15'>
               <el-col :span="6">
                 <el-card :body-style="{ padding: '0px' }">
-                  <img src="./img/img-sm/20160819_sy_225_15.jpg"
-                       class="image">
+                  <div class='img-wrap'>
+                    <img src="./img/img-sm2/timg.jpg"
+                         class="image">
+                  </div>
                   <div style="padding: 14px;">
-                    <div class='book-title'>全职高手</div>
+                    <div class='book-title'>他的她</div>
                   </div>
                 </el-card>
               </el-col>
               <el-col :span="6">
                 <el-card :body-style="{ padding: '0px' }">
-                  <img src="./img/img-sm/20170509_sy_225_14.jpg"
-                       class="image">
+                  <div class='img-wrap'>
+                    <img src="./img/img-sm2/timg1.jpg"
+                         class="image">
+                  </div>
                   <div style="padding: 14px;">
-                    <div class='book-title'>拳皇命运</div>
+                    <div class='book-title'>后来的我们</div>
                   </div>
                 </el-card>
               </el-col>
               <el-col :span="6">
                 <el-card :body-style="{ padding: '0px' }">
-                  <img src="./img/img-sm/20161207_ljt_220_1.jpg"
-                       class="image">
+                  <div class='img-wrap'>
+                    <img src="./img/img-sm2/timg2.jpg"
+                         class="image">
+                  </div>
                   <div style="padding: 14px;">
-                    <div class='book-title'>风夏</div>
+                    <div class='book-title'>飞鸟集</div>
                   </div>
                 </el-card>
               </el-col>
               <el-col :span="6">
                 <el-card :body-style="{ padding: '0px' }">
-                  <img src="./img/img-sm/20180427_ljt_220_4.jpg"
-                       class="image">
+                  <div class='img-wrap'>
+                    <img src="./img/img-sm2/timg3.jpg"
+                         class="image">
+                  </div>
                   <div style="padding: 14px;">
-                    <div class='book-title'>全职高手2</div>
+                    <div class='book-title'>那天的海岸</div>
                   </div>
                 </el-card>
               </el-col>
@@ -101,63 +98,37 @@
       <div class='main-section'>
         <el-row>
           <el-col :span='12'>
-            <h3 class='spe-title2'>国产好漫画</h3>
+            <h3 class='spe-title2'>美图鉴赏</h3>
           </el-col>
         </el-row>
         <el-row :gutter='30'>
-          <el-col :span="4">
-            <el-card :body-style="{ padding: '0px' }">
-              <img src="./img/img-sm/20180727_ljt_220_1.jpg"
-                   class="image">
-              <div style="padding: 14px;">
-                <div class='book-title'>苍之涛</div>
-              </div>
-            </el-card>
+          <el-col :span='8'>
+            <div class='img-main-wrap'>
+              <img src='./img/banner5.jpg'
+                   alt=''>
+            </div>
           </el-col>
-          <el-col :span="4">
-            <el-card :body-style="{ padding: '0px' }">
-              <img src="./img/img-sm/20180406_ljt_220_5.jpg"
-                   class="image">
-              <div style="padding: 14px;">
-                <div class='book-title'>一人之下</div>
-              </div>
-            </el-card>
+          <el-col :span='8'>
+            <div class='img-sub-wrap'>
+              <img src='./img/img-fuck/66.jpg'
+                   style='width: 100%;height: auto'
+                   alt=''>
+            </div>
+            <div class='img-sub-wrap'>
+              <img src='./img/img-fuck/4.jpg'
+                   style='width: 100%;height: auto'
+                   alt=''>
+            </div>
           </el-col>
-          <el-col :span="4">
-            <el-card :body-style="{ padding: '0px' }">
-              <img src="./img/img-sm/20180906_ljt_220_22.jpg"
-                   class="image">
-              <div style="padding: 14px;">
-                <div class='book-title'>星辰变</div>
-              </div>
-            </el-card>
-          </el-col>
-          <el-col :span="4">
-            <el-card :body-style="{ padding: '0px' }">
-              <img src="./img/img-sm/20180613_ljt_220_32.jpg"
-                   class="image">
-              <div style="padding: 14px;">
-                <div class='book-title'>西行记</div>
-              </div>
-            </el-card>
-          </el-col>
-          <el-col :span="4">
-            <el-card :body-style="{ padding: '0px' }">
-              <img src="./img/img-sm/20180613_ljt_220_34.jpg"
-                   class="image">
-              <div style="padding: 14px;">
-                <div class='book-title'>魔道祖师</div>
-              </div>
-            </el-card>
-          </el-col>
-          <el-col :span="4">
-            <el-card :body-style="{ padding: '0px' }">
-              <img src="./img/img-sm/20181212_ljt_220_34.jpg"
-                   class="image">
-              <div style="padding: 14px;">
-                <span>武动乾坤</span>
-              </div>
-            </el-card>
+          <el-col :span='8'>
+            <div class='img-sub-wrap'>
+              <img src='./img/img-fuck/3.jpg'
+                   alt=''>
+            </div>
+            <div class='img-sub-wrap'>
+              <img src='./img/img-fuck/5.jpg'
+                   alt=''>
+            </div>
           </el-col>
         </el-row>
       </div>
@@ -165,13 +136,13 @@
       <div class='main-section'>
         <el-row>
           <el-col :span='12'>
-            <h3 class='spe-title2'>精彩资讯</h3>
+            <h3 class='spe-title2'>发现</h3>
           </el-col>
         </el-row>
         <el-row :gutter='30'>
           <div class='news-item'>
             <div class='news-avatar'>
-              <img src='./img/img-md/20181101_ljt_220_2.jpg'
+              <img src='./img/img-md2/timg4.jpg'
                    alt=''>
             </div>
             <div class='news-main'>
@@ -179,18 +150,18 @@
               <div class='news-sub'>五官新手常见的脸部五官错误画法及其正确演示~</div>
               <div class='news-date'>
                 <div>
-                  <el-tag type="success">好看</el-tag>
-                  <el-tag type="info">大神NB</el-tag>
+                  <el-tag type="success">草原</el-tag>
+                  <!--<el-tag type="info">大神NB</el-tag>-->
                 </div>
-                <div style='text-align: right;'>
-                  <span>2019-01-02</span> <span style='padding-left: 30px;'>阅读 12233</span></div>
+                <!--<div style='text-align: right;'>-->
+                <!--<span>2019-01-02</span> <span style='padding-left: 30px;'>阅读 12233</span></div>-->
               </div>
             </div>
           </div>
 
           <div class='news-item'>
             <div class='news-avatar'>
-              <img src='./img/img-md/20181103_ljt_220_8.jpg'
+              <img src='./img/img-md2/timg6.jpg'
                    alt=''>
             </div>
             <div class='news-main'>
@@ -198,38 +169,38 @@
               <div class='news-sub'>很多人会觉得临摹服装的时候超简单，到自己画的时候就分分钟大脑宕机，主要原因还是不会画褶皱。</div>
               <div class='news-date'>
                 <div>
-                  <el-tag type="danger">热门</el-tag>
+                  <el-tag type="danger">山河</el-tag>
                 </div>
 
-                <div style='text-align: right;'>
-                  <span>2019-01-01</span> <span style='padding-left: 30px;'>阅读 2213</span>
-                </div>
+                <!--<div style='text-align: right;'>-->
+                <!--<span>2019-01-01</span> <span style='padding-left: 30px;'>阅读 2213</span>-->
+                <!--</div>-->
               </div>
             </div>
           </div>
 
           <div class='news-item'>
             <div class='news-avatar'>
-              <img src='./img/img-md/20181111_ljt_220_5.jpg'
+              <img src='./img/img-md2/timg5.jpg'
                    alt=''>
             </div>
             <div class='news-main'>
-              <div class='news-title'>你的五官其实画错了你知道吗？这就是小白和大触的差别！</div>
+              <div class='news-title'>这就是小白和大触的差别！</div>
               <div class='news-sub'>很多童鞋私信肥皂君说五官画不好，肥皂君给大家整理了一篇五官专题的绘画教程，有五官新手常见的脸部五官错误画法及其正确演示~</div>
               <div class='news-date'>
                 <div>
-                  <el-tag type="warning">赞赞赞</el-tag>
+                  <el-tag type="warning">星空</el-tag>
                 </div>
-                <div style='text-align: right;'>
-                  <span>2018-12-02</span> <span style='padding-left: 30px;'>阅读 9983</span>
-                </div>
+                <!--<div style='text-align: right;'>-->
+                <!--<span>2018-12-02</span> <span style='padding-left: 30px;'>阅读 9983</span>-->
+                <!--</div>-->
               </div>
             </div>
           </div>
 
           <div class='news-item'>
             <div class='news-avatar'>
-              <img src='./img/img-md/20181223_ljt_220_8.jpg'
+              <img src='./img/img-md2/timg7.jpg'
                    alt=''>
             </div>
             <div class='news-main'>
@@ -237,13 +208,13 @@
               <div class='news-sub'>其实很多人想花好很好看的MM，但是眼睛实际上才是重点，呵呵，这期小编来教大家怎么画好MM的眼睛~</div>
               <div class='news-date'>
                 <div>
-                  <el-tag type="danger">小编很给力啊</el-tag>
-                  <el-tag type="success">火热推荐</el-tag>
-                  <el-tag type="info">太好看啦啊</el-tag>
+                  <el-tag type="danger">飞鸟</el-tag>
+                  <!--<el-tag type="success">火热推荐</el-tag>-->
+                  <!--<el-tag type="info">太好看啦啊</el-tag>-->
                 </div>
-                <div style='text-align: right;'>
-                  <span>2019-01-02</span> <span style='padding-left: 30px;'>阅读 233</span>
-                </div>
+                <!--<div style='text-align: right;'>-->
+                <!--<span>2019-01-02</span> <span style='padding-left: 30px;'>阅读 233</span>-->
+                <!--</div>-->
               </div>
             </div>
           </div>
@@ -268,28 +239,28 @@
         }],
 
         list1: [{
-          title: '桃花宝典',
+          title: '使者之我是僵尸',
           percent: 103324
         }, {
-          title: '很纯很暧昧',
-          percent: 101324
+          title: '乞丐总裁',
+          percent: 96324
         }, {
-          title: '斗破苍穹',
+          title: '花海神医',
           percent: 93324
         }, {
-          title: '武动乾坤',
+          title: '大智若愚',
           percent: 92324
         }, {
-          title: '仙侠世界',
+          title: '传说',
           percent: 88324
         }, {
           title: '奇葩小人物',
           percent: 83324
         }, {
-          title: '我的野蛮女友',
+          title: '芥末总裁',
           percent: 64224
         }, {
-          title: '爆笑宝典',
+          title: '爆笑虾米2',
           percent: 57323
         }]
       }
@@ -305,6 +276,53 @@
 <style rel="stylesheet/scss"
        lang="scss">
   /*@import "indexPage";*/
+  .img-wrap {
+    overflow: hidden;
+    width: 220px;
+    height: 280px;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .img-main-wrap {
+    height: 430px;
+    overflow: hidden;
+
+    &:hover {
+      img {
+        transform: scale(1.1);
+      }
+    }
+
+    img {
+      height: 430px;
+      width: auto;
+      transition: all 0.5s ease;
+    }
+  }
+
+  .img-sub-wrap {
+    height: 200px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    font-size: 0;
+
+    &:hover {
+      img {
+        transform: scale(1.1);
+      }
+    }
+
+    img {
+      height: 200px;
+      width: auto;
+      transition: all 0.5s ease;
+    }
+  }
+
   .index-scroll-wrap {
     height: 400px;
 
