@@ -30,7 +30,7 @@
               <el-col :span="6">
                 <el-card :body-style="{ padding: '0px' }">
                   <div class='img-wrap'>
-                    <img src="./img/img-sm2/timg.jpg"
+                    <img src="./img/img-haha/d.jpg"
                          class="image">
                   </div>
                   <div style="padding: 14px;">
@@ -41,7 +41,7 @@
               <el-col :span="6">
                 <el-card :body-style="{ padding: '0px' }">
                   <div class='img-wrap'>
-                    <img src="./img/img-sm2/timg1.jpg"
+                    <img src="./img/img-haha/a.jpg"
                          class="image">
                   </div>
                   <div style="padding: 14px;">
@@ -52,7 +52,7 @@
               <el-col :span="6">
                 <el-card :body-style="{ padding: '0px' }">
                   <div class='img-wrap'>
-                    <img src="./img/img-sm2/timg2.jpg"
+                    <img src="./img/img-haha/b.jpg"
                          class="image">
                   </div>
                   <div style="padding: 14px;">
@@ -63,7 +63,7 @@
               <el-col :span="6">
                 <el-card :body-style="{ padding: '0px' }">
                   <div class='img-wrap'>
-                    <img src="./img/img-sm2/timg3.jpg"
+                    <img src="./img/img-haha/c.jpg"
                          class="image">
                   </div>
                   <div style="padding: 14px;">
@@ -142,7 +142,7 @@
         <el-row :gutter='30'>
           <div class='news-item'>
             <div class='news-avatar'>
-              <img src='./img/img-md2/timg4.jpg'
+              <img src='./img/img-mdfuck2/timg4.jpg'
                    alt=''>
             </div>
             <div class='news-main'>
@@ -161,7 +161,7 @@
 
           <div class='news-item'>
             <div class='news-avatar'>
-              <img src='./img/img-md2/timg6.jpg'
+              <img src='./img/img-mdfuck2/timg6.jpg'
                    alt=''>
             </div>
             <div class='news-main'>
@@ -181,7 +181,7 @@
 
           <div class='news-item'>
             <div class='news-avatar'>
-              <img src='./img/img-md2/timg5.jpg'
+              <img src='./img/img-mdfuck2/timg5.jpg'
                    alt=''>
             </div>
             <div class='news-main'>
@@ -200,7 +200,7 @@
 
           <div class='news-item'>
             <div class='news-avatar'>
-              <img src='./img/img-md2/timg7.jpg'
+              <img src='./img/img-mdfuck2/timg7.jpg'
                    alt=''>
             </div>
             <div class='news-main'>
